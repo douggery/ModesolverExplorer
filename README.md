@@ -16,7 +16,13 @@ to the overalp area of the mode in the core vs the cladding. Longer wavelengths 
 which equates to 'waveguide dispersion.' This effect is in contrast to material dispersion which has the opposite character for
 common nanophotonic materials. Control of the dispersion enables waveguide mixing, nonlinear phase matching, and diffractive structure design
 
-WGInvestigation can be run multiple times with different parameters and should have been turned into a function. 
+WGInvestigation can be run multiple times with different parameters and should have been turned into a function. This 2.5 nm step size took 14k s
+
+![Mode Structure, dim=0 25 by 0 3step size= 0 0025_Ex_0](https://user-images.githubusercontent.com/30641156/226085083-67c6e2d3-90d7-4f9c-9865-071c9b0b9fec.png)
+
+This 15 nm step size took 5.5 s
+
+![Mode Structure, dim=0 25 by 0 3step size= 0 015_Ex_0](https://user-images.githubusercontent.com/30641156/226085105-f97d94fc-1a22-4cc1-ad27-f8b72cd3aa52.png)
 
 Anyways, the Step Size vs Beta bit of code outputs a more practical and applied result. Decreasing the step size of the model increases the accuracy
 at a cost of increased time. However, the changes in accuracy should monotonically decrease to the true result as the step size --> 0. 
